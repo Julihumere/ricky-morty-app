@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --violetDark: #380053;
+  --violetMedium: #620090;
+  --violetLight: #ae00ff;
+  --yellowDark: #c8b400;
+  --yellowLight: #faff02;
+  --midnightblue: rgb(11, 11, 58);
+}
