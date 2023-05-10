@@ -10,7 +10,7 @@ import {
   ItemResult,
   Status,
   StatusColor,
-} from "./CardCharacterStyle";
+} from "../CardCharacter/CardCharacterStyle";
 
 type Props = {
   characters: Characters[];

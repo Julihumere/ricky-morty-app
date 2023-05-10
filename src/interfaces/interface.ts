@@ -44,4 +44,5 @@ export interface State {
   locations: Location[];
   episodes: Episode[];
   page: number;
+  error: string;
 }

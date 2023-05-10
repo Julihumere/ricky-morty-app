@@ -43,15 +43,6 @@ export const ContainerCard = styled.div`
   height: 85vh;
 `;
 
-export const ContainerSelects = styled.div`
-  background: var(--violetDark);
-  width: 100%;
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-`;
-
 export const Characters = styled.div`
   height: 87%;
   display: grid;
@@ -79,6 +70,9 @@ export const Pagination = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  border: 5px solid var(--yellowDark);
+  padding: 20px 0;
+  border-radius: 20px;
 `;
 
 export const ContainerButtons = styled.div`
@@ -87,10 +81,13 @@ export const ContainerButtons = styled.div`
   align-items: center;
   justify-content: space-around;
 `;
+export const Page = styled.h1`
+  color: var(--yellowDark);
+`;
 
 export const ButtonsPagination = styled.button`
-  width: 20%;
-  height: 32px;
+  width: 30%;
+  height: 42px;
   border: 3px solid var(--yellowDark);
   border-radius: 20px;
   font-size: 20px;
@@ -99,4 +96,43 @@ export const ButtonsPagination = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+`;
+
+//Error
+export const ErrorContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const ErrorImage = styled.img`
+  width: 200px;
+  height: 350px;
+`;
+
+export const ErrorText = styled.h1`
+  color: var(--yellowDark);
+`;
+
+export const Episodes = styled.div`
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  overflow-y: scroll;
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: var(--yellowDark);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--violetDark);
+    width: 8px;
+  }
 `;
